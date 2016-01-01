@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'telegram_bot'
+gem 'telegram-bot-ruby'
+
 gem 'foreman'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'

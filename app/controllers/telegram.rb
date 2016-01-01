@@ -1,19 +1,18 @@
-require 'telegram_bot'
 
-bot = TelegramBot.new(token: '149230034:AAH_Q-s-KOxWaafJwlOMDWYQLxDMHNCehVU')
 
-bot.get_updates(fail_silently: true) do |message|
-  puts "@#{message.from.username}: #{message.text}"
-  command = message.get_command_for(bot)
 
-  message.reply do |reply|
-    case command
-    when /greet/i
-      reply.text = "Hello, #{message.from.first_name}!"
-    else
-      reply.text = "#{message.from.first_name}, have no idea what #{command.inspect} means."
+
+require 'telegram/bot'
+
+token = '149230034:AAH_Q-s-KOxWaafJwlOMDWYQLxDMHNCehVU'
+
+Telegram::Bot::Client.run(token) do |bot|
+  bot.listen do |message|
+    case message.text
+    when '/start'
+      bot.api.send_message(chat_id: message.chat.id, text: "Hello, #{message.from.first_name}")
+    when '/stop'
+      bot.api.send_message(chat_id: message.chat.id, text: "Bye, #{message.from.first_name}")
     end
-    puts "sending #{reply.text.inspect} to @#{message.from.username}"
-    reply.send_with(bot)
   end
 end
