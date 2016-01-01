@@ -7,7 +7,7 @@ logger = Logger.new(STDOUT, Logger::DEBUG)
 bot = TelegramBot.new(token: '149230034:AAH_Q-s-KOxWaafJwlOMDWYQLxDMHNCehVU', logger: logger)
 logger.debug "starting telegram bot"
 
-bot.get_updates({fail_silently:true, timeout:20}) do |message|
+bot.get_updates({fail_silently:true, timeout:200}) do |message|
   logger.info "@#{message.from.username}: #{message.text}"
   command = message.get_command_for(bot)
 
