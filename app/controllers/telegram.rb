@@ -1,7 +1,7 @@
 require 'telegram_bot'
 
-bot = TelegramBot.new(token: '149230034:AAH_Q-s-KOxWaafJwlOMDWYQLxDMHNCehVU')
-bot.get_updates(fail_silently: true) do |message|
+bot = TelegramBot.new(token: '149230034:AAH_Q-s-KOxWaafJwlOMDWYQLxDMHNCehVU', logger: Logger.new(STDOUT), offset: 123, timeout: 30)
+bot.get_updates(fail_silently: false) do |message|
   puts "@#{message.from.username}: #{message.text}"
   command = message.get_command_for(bot)
 
