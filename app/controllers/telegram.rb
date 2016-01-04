@@ -23,12 +23,13 @@ Telegram::Bot::Client.run(token) do |bot|
     when '/help'
       bot.api.send_message(chat_id: message.chat.id,
       text: "You can control me by sending these commands:
-      \n/start\n/stop\n/help",
+      \n/start - Blabla\n/stop - Blabla\n/help - Blabla",
       disable_web_page_preview: false, parse_mode: 'Markdown')
 
     else
       bot.api.send_message(chat_id: message.chat.id,
-      text: "You can control me by sending these commands:\n/start \n/stop",
+      text: "You can control me by sending these commands:
+      \n/start - Blabla\n/stop - Blabla\n/help - Blabla",
       disable_web_page_preview: false, parse_mode: 'Markdown')
     end
   end
