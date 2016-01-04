@@ -15,9 +15,21 @@ Telegram::Bot::Client.run(token) do |bot|
       bot.api.send_message(chat_id: message.chat.id,
       text: "Type  _help_ for more info.",
       disable_web_page_preview: false, parse_mode: 'Markdown')
+
     when '/stop'
       bot.api.send_message(chat_id: message.chat.id,
       text: "Bye, #{message.from.first_name}")
+
+    when '/help'
+      bot.api.send_message(chat_id: message.chat.id,
+      text: "You can control me by sending these commands:
+      \n/start\n/stop\n/help",
+      disable_web_page_preview: false, parse_mode: 'Markdown')
+
+    else
+      bot.api.send_message(chat_id: message.chat.id,
+      text: "You can control me by sending these commands:\n/start \n/stop",
+      disable_web_page_preview: false, parse_mode: 'Markdown')
     end
   end
 end
