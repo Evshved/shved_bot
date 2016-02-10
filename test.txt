@@ -1,0 +1,128 @@
+Parsing page number1
+[
+  {
+    "description": "de_dust2_2x2",
+    "ip": "77.37.146.35:27025",
+    "online": "7/18"
+  },
+  {
+    "description": "de_dust2_2x2",
+    "ip": "77.37.146.35:27017",
+    "online": "7/18"
+  },
+  {
+    "description": "de_dust2_2x2",
+    "ip": "77.37.146.35:27000",
+    "online": "7/18"
+  },
+  {
+    "description": "de_dust2_2x2",
+    "ip": "77.220.182.69:27015",
+    "online": "10/18"
+  }
+]
+Parsing page number2
+[
+  {
+    "description": "de_dust2_2x2",
+    "ip": "83.222.115.18:27065",
+    "online": "12/16"
+  },
+  {
+    "description": "de_dust2_2x2",
+    "ip": "195.2.253.170:27031",
+    "online": "11/16"
+  },
+  {
+    "description": "de_dust2_2x2",
+    "ip": "46.174.50.35:27207",
+    "online": "6/18"
+  },
+  {
+    "description": "de_dust2_2x2",
+    "ip": "83.222.96.154:27022",
+    "online": "7/17"
+  },
+  {
+    "description": "de_dust2_2x2",
+    "ip": "94.142.141.44:27078",
+    "online": "6/12"
+  },
+  {
+    "description": "de_dust2_2x2",
+    "ip": "94.142.141.44:27075",
+    "online": "7/16"
+  }
+]
+Parsing page number3
+[
+  {
+    "description": "de_dust2_2x2",
+    "ip": "46.174.52.16:27249",
+    "online": "8/17"
+  },
+  {
+    "description": "de_dust2_2x2",
+    "ip": "91.211.118.31:27022",
+    "online": "6/16"
+  },
+  {
+    "description": "de_dust2_2x2",
+    "ip": "193.26.217.12:28229",
+    "online": "9/16"
+  }
+]
+Parsing page number4
+[
+  {
+    "description": "de_dust2_2x2",
+    "ip": "193.19.119.166:27046",
+    "online": "9/18"
+  },
+  {
+    "description": "de_dust2_2x2",
+    "ip": "83.222.104.186:27027",
+    "online": "12/16"
+  },
+  {
+    "description": "de_dust2_2x2",
+    "ip": "193.19.119.186:27031",
+    "online": "6/16"
+  }
+]
+Parsing page number5
+[
+  {
+    "description": "de_dust2_2x2",
+    "ip": "185.58.207.248:27002",
+    "online": "7/12"
+  },
+  {
+    "description": "de_dust2_2x2",
+    "ip": "46.174.48.45:27234",
+    "online": "9/16"
+  },
+  {
+    "description": "de_dust2_2x2",
+    "ip": "46.174.52.10:27267",
+    "online": "6/16"
+  },
+  {
+    "description": "de_dust2_2x2",
+    "ip": "46.174.52.20:27284",
+    "online": "6/18"
+  }
+]
+Parsing page number6
+[
+  {
+    "description": "de_dust2_2x2",
+    "ip": "46.174.52.20:27284",
+    "online": "6/18"
+  },
+  {
+    "description": "de_dust2_2x2",
+    "ip": "193.124.181.161:27016",
+    "online": "8/16"
+  }
+]
